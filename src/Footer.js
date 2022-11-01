@@ -2,7 +2,7 @@ import React from 'react';
 import './Footer.css';
 import facebook from './facebook.svg'
 import instagram from './instagram.svg'
-import github from './github.svg'
+import github from './github-blue.svg'
 
 const Footer = () => {
     return (
