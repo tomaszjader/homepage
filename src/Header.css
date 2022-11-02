@@ -1,0 +1,20 @@
+.Header {
+    font-family: 'Nunito';
+    color: #234361;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Sent-button {
+    background: #4DA8FF;
+    border-radius: 64px;
+    color: #FFFFFF;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 24px;
+    padding-right: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
