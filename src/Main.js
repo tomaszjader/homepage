@@ -1,10 +1,11 @@
 import React from 'react';
-import GitHubCard from './GithubCard';
+import Projects from './Projects.js';
+
 
 const Main = () => {
     return (
         <div>
-            <GitHubCard></GitHubCard>
+            <Projects></Projects>
         </div>
     );
 }
