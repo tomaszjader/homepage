@@ -9,26 +9,40 @@ const GitHubCard = () => {
                 <div className='Dot'></div>
                 <div className='Dot'></div>
             </div>
-            <div >
-                <img src={github} className='GithubIcon'/>
+            <div className='GithubIcon'>
+                <img src={github} />
             </div>
-            <p>
-                project:
-                <strong className='GithubTitle'>podlaski git</strong> 
-            </p>
-            <p>
-                description:
-                podlaskie aliasy dla gitowych komend
-            </p>
-            <p>
-                demo:
-                {"<see here>"}
-            </p>
-            <p>
-                github:
-                {"<source code>"}
-            </p>
-
+            <div className='GithubText'>
+                <p className='GithubTextProject'>{"    "}
+                    project:
+                    <strong className='GithubTitle'>podlaski git </strong>
+                </p>
+                <p >
+                    description:
+                    podlaskie aliasy dla gitowych komend
+                </p>
+                <p className='GithubTextDemo'>
+                    demo:
+                    <strong className='GithubTextPading'
+                    >{"<"}
+                        <a href='#'  className='GithubTextLinks'>{
+                            "see here"
+                        }</a>
+                        {">"}
+                    </strong>
+                </p>
+                <p className='GithubTextGithub'>
+                    github:
+                    <strng className='GithubTextPading'>
+                        {"<"}
+                        <a href='#' className='GithubTextLinks'>{
+                            "source code"
+                        }
+                        </a>
+                        {">"}
+                    </strng>
+                </p>
+            </div>
         </div>
     );
 }
