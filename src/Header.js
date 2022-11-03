@@ -11,9 +11,9 @@ const Header = () => {
                 <header className='HeaderSpeechCloud'>
                     <h1 >Hey there! 👋</h1>
                 </header>
-<div>
-    
-</div>
+                <div>
+
+                </div>
                 <img src={speechCloud} alt="speech cloud" className='HeaderSpeechCloudEnd' />
                 <div className='HeaderImageGrid'>
                     <img src={tomaszjader} className='HeaderImage' />
@@ -27,7 +27,7 @@ const Header = () => {
                 <img src={bracketLeft} alt="bracket left" />
                 <div className="HeaderText">
                     <h2 className="HeaderTextCenter">My name is Tomasz and I’m an aspiring<br /><strong className='HeaderDev'>Frontend developer</strong> and cryptocurrency fan. </h2>
-                    <p className={'HeaderParagraf '+"HeaderTextCenter"}>You might be interested in checking the list of <a className='HeaderLinks' href="#">my skills</a>. Don’t forget to  have a glimpse at<br /><a href="#" className='HeaderLinks'>my projects</a>. Currently I’m looking for a new challenges so if you have one - <a href="#" className='HeaderLinks'>contact me</a> 😊</p>
+                    <p className={'HeaderParagraf ' + "HeaderTextCenter"}>You might be interested in checking the list of <a className='HeaderLinks' href="#">my skills</a>. Don’t forget to  have a glimpse at<br /><a href="#" className='HeaderLinks'>my projects</a>. Currently I’m looking for a new challenges so if you have one - <a href="#" className='HeaderLinks'>contact me</a> 😊</p>
 
                 </div>
                 <img src={bracketRight} alt="bracket right" />

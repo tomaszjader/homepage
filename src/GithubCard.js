@@ -1,7 +1,7 @@
 import React from 'react';
 import './GithubCard.css'
 import github from './github.svg'
-const GitHubCard = () => {
+const GitHubCard = ({project='', description='', demo='', gitHubLink=''}) => {
     return (
         <div className='GitHubCard'>
             <div className='TabBar'>
@@ -15,17 +15,17 @@ const GitHubCard = () => {
             <div className='GithubText'>
                 <p className='GithubTextProject'>{"    "}
                     project:
-                    <strong className='GithubTitle'>podlaski git </strong>
+                    <strong className='GithubTitle'>{project}</strong>
                 </p>
                 <p >
                     description:
-                    podlaskie aliasy dla gitowych komend
+                    {description}
                 </p>
                 <p className='GithubTextDemo'>
                     demo:
                     <strong className='GithubTextPading'
                     >{"<"}
-                        <a href='#'  className='GithubTextLinks'>{
+                        <a href={demo} target='_blank'  className='GithubTextLinks'>{
                             "see here"
                         }</a>
                         {">"}
@@ -35,7 +35,7 @@ const GitHubCard = () => {
                     github:
                     <strng className='GithubTextPading'>
                         {"<"}
-                        <a href='#' className='GithubTextLinks'>{
+                        <a href={gitHubLink} target='_blank' className='GithubTextLinks'>{
                             "source code"
                         }
                         </a>
