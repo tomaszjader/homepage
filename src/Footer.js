@@ -14,16 +14,16 @@ const Footer = () => {
                 I’m open for new opportunities. If you have one for me we should talk!
             </p>
             <div className='Social-buttons'>
-                <div className='Social-button'>
+                <a href='https://www.facebook.com/tomasz.jader.5' target='_blank' className='Social-button'>
                     <img src={facebook} />
-                </div>
-                <div className='Social-button'>
+                </a>
+                <a href='https://www.instagram.com/leonardo_davidoff/' target='_blank' className='Social-button'>
                     <img src={instagram} />
-                </div>
-                <div className='Social-button'>
+                </a>
+                <a href='https://github.com/tomaszjader' target='_blank' className='Social-button'>
                     <img src={github} />
-                </div>
-                <div className='Sent-button'>maciej@cotenfrontend.pl</div>
+                </a>
+                <div className='Sent-button'>tomaszjader@gmail.com</div>
             </div>
 
             

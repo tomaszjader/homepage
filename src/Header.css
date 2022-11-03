@@ -35,19 +35,43 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
+
 .HeaderImage {
     width: 178px;
     left: calc(50% - 178px/2 - 112.5px);
     border: 24px solid #F6F9FD;
     border-radius: 50%;
 }
+
 .HeaderLinks {
     color: #4DA8FF;
 }
+
 .HeaderParagraf {
     color: #425A70;
 }
+
 .HeaderHello {
     
+}
+.HeaderSpeechCloudEnd {
+    
+}
+.HeaderImageGrid {
+    
+    
+}
+.HeaderContent {
+    display: flex;
+}
+.HeaderText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.HeaderTextCenter {
+    text-align: center;
 }
