@@ -18,8 +18,7 @@ const GitHubCard = ({project='', description='', demo='', gitHubLink=''}) => {
                     <strong className='GithubTitle'>{project}</strong>
                 </p>
                 <p >
-                    description:
-                    {description}
+                    description: {description}
                 </p>
                 <p className='GithubTextDemo'>
                     demo:

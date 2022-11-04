@@ -9,6 +9,7 @@
 }
 
 .Sent-button {
+    text-decoration: none;
     background: #4DA8FF;
     border-radius: 64px;
     color: #FFFFFF;
@@ -19,6 +20,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 40px
 }
 
 .HeaderDev {
@@ -28,7 +30,7 @@
 .HeaderSpeechCloud {
     background: #1070CA;
     color: #FFFFFF;
-    margin-top: 80px;
+    
     border-radius: 16px;
     width: 230px;
     height: 72px;
@@ -40,9 +42,11 @@
 
 .HeaderImage {
     width: 178px;
-    left: calc(50% - 178px/2 - 112.5px);
+    height: 178px;
+    
     border: 24px solid #F6F9FD;
     border-radius: 50%;
+    margin-bottom: 72px;
 }
 
 .HeaderLinks {
@@ -57,7 +61,7 @@
     
 }
 .HeaderSpeechCloudEnd {
-    
+    margin-left: 25px;
 }
 .HeaderImageGrid {
     
@@ -65,13 +69,27 @@
 }
 .HeaderContent {
     display: flex;
+    
 }
 .HeaderText {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    
 }
 .HeaderTextCenter {
     text-align: center;
+    
+}
+.HeaderSpeechClouds {
+    position: relative;
+  
+  top: 70px;
+  left: 200px;
+}
+.HeaderBrackets {
+   height: 189px;
+}
+.HeaderTextMargin {
+    margin-top: 0;
 }

@@ -56,10 +56,11 @@
 }
 .SkillsListWant {
     font-weight: normal;
+    list-style-image: url('list-dot.svg');
     
 }
 li::marker {
     
-    font-size: 0.3em;
+    font-size: 0.7em;
 }
 

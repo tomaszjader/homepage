@@ -6,7 +6,7 @@ import github from './github-blue.svg'
 
 const Footer = () => {
     return (
-        <div className='App'>
+        <div id='contact' className='App'>
             <h2 className='App-header'>
                 Contact me
             </h2>
@@ -23,7 +23,7 @@ const Footer = () => {
                 <a href='https://github.com/tomaszjader' target='_blank' className='Social-button'>
                     <img src={github} />
                 </a>
-                <div className='Sent-button'>tomaszjader@gmail.com</div>
+                <a href="mailto:tomasz.jader@gmail.com" className='Sent-button'>tomasz.jader@gmail.com</a>
             </div>
 
             
