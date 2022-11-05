@@ -64,3 +64,12 @@ li::marker {
     font-size: 0.7em;
 }
 
+@media only screen and (max-width: 1121px) {
+    .SkillsConteiner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 184px;
+        margin-bottom: 176px;
+    }
+}

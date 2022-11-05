@@ -32,3 +32,10 @@
 
     margin-bottom: 128px;
 }
+@media only screen and (max-width: 1121px) {
+    .ProjectsGitHubCards {
+        display: flex;
+    gap: 24px;
+    flex-direction: column;
+    }
+}

@@ -15,19 +15,23 @@ const Footer = () => {
                 I’m open to new opportunities. If you have one for me we should talk!
             </p>
             <div className='Social-buttons'>
-                <a href='https://www.linkedin.com/in/tomasz-j%C4%85der-a25427200/' target='_blank' className='Social-button'>
-                    <img src={linkedin} />
-                </a>
-                <a href='https://www.instagram.com/leonardo_davidoff/' target='_blank' className='Social-button'>
-                    <img src={instagram} />
-                </a>
-                <a href='https://github.com/tomaszjader' target='_blank' className='Social-button'>
-                    <img src={github} />
-                </a>
+                <div className='FooterSocialButtons'>
+                    <a href='https://www.linkedin.com/in/tomasz-j%C4%85der-a25427200/' target='_blank' className='Social-button'>
+                        <img src={linkedin} />
+                    </a>
+                    <a href='https://www.instagram.com/leonardo_davidoff/' target='_blank' className='Social-button'>
+                        <img src={instagram} />
+                    </a>
+                    <a href='https://github.com/tomaszjader' target='_blank' className='Social-button'>
+                        <img src={github} />
+                    </a>
+                </div>
+
+
                 <a href="mailto:tomasz.jader@gmail.com" className='Sent-button'>tomasz.jader@gmail.com</a>
             </div>
 
-            
+
         </div>
     );
 }
