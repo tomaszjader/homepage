@@ -93,3 +93,13 @@
 .HeaderTextMargin {
     margin-top: 0;
 }
+
+@media only screen and (max-width: 1121px) {
+.HeaderSpeechClouds {
+    display: none; 
+}
+.HeaderBrackets {
+    display: none;   
+}
+
+}
