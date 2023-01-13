@@ -1,6 +1,6 @@
-# My alter ego's golden thought generator
+# My homepage
 A simple homepage based on a project in figma
-[Preview](https://tomaszjader.github.io/leonardo-davidoff-generator/)
+[Preview](https://tomaszjader.github.io)
 ## Project launch
 ```sh
 npm install
