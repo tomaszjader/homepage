@@ -8,11 +8,14 @@ const Projects = () => {
     const [gitHubData, setGitHubData] = useState([]);
     useEffect(
         () => {
-            fetch('https://gh-pinned-repos.egoist.dev/?username=tomaszjader')
+            fetch('https://api.github.com/users/tomaszjader/repos')
                 .then((response) => response.json())
                 .then((data) => {
-                    setGitHubData(data);
-                    console.log(data);
+                    const newData =data.filter(
+                        (repo) => repo.description && repo.homepage
+                      );
+                    setGitHubData(newData);
+                    console.log(newData);
                 });
         }, []);
     return (
@@ -22,27 +25,27 @@ const Projects = () => {
             <div className='ProjectsGap'>
                 <div className='ProjectsGitHubCards'>
                     <GitHubCard
-                        project={gitHubData.length?gitHubData[0].repo:''}
+                        project={gitHubData.length?gitHubData[0].name:''}
                         description={gitHubData.length?gitHubData[0].description:''}
-                        demo={gitHubData.length?gitHubData[0].website : ''}
-                        gitHubLink={gitHubData.length?gitHubData[0].link :''} />
+                        website={gitHubData.length?gitHubData[0].website : ''}
+                        link={gitHubData.length?gitHubData[0].link :''} />
                     <GitHubCard
-                        project={gitHubData.length?gitHubData[1].repo:''}
+                        project={gitHubData.length?gitHubData[1].name:''}
                         description={gitHubData.length?gitHubData[1].description:''}
-                        demo={gitHubData.length?gitHubData[1].website : ''}
-                        gitHubLink={gitHubData.length?gitHubData[1].link :''} />
+                        website={gitHubData.length?gitHubData[1].website : ''}
+                        link={gitHubData.length?gitHubData[1].link :''} />
                 </div>
                 <div className='ProjectsGitHubCards'>
                 <GitHubCard
-                        project={gitHubData.length?gitHubData[2].repo:''}
+                        project={gitHubData.length?gitHubData[2].name:''}
                         description={gitHubData.length?gitHubData[2].description:''}
-                        demo={gitHubData.length?gitHubData[2].website : ''}
-                        gitHubLink={gitHubData.length?gitHubData[2].link :''} />
+                        website={gitHubData.length?gitHubData[2].website : ''}
+                        link={gitHubData.length?gitHubData[2].link :''} />
                     <GitHubCard
-                        project={gitHubData.length?gitHubData[3].repo:''}
+                        project={gitHubData.length?gitHubData[3].name:''}
                         description={gitHubData.length?gitHubData[3].description:''}
-                        demo={gitHubData.length?gitHubData[3].website : ''}
-                        gitHubLink={gitHubData.length?gitHubData[3].link :''} />
+                        website={gitHubData.length?gitHubData[3].website : ''}
+                        link={gitHubData.length?gitHubData[3].link :''} />
                 </div>
             </div>
 

@@ -29,7 +29,7 @@ const Header = () => {
             <div className='HeaderContent'>
                 <img className='HeaderBrackets' src={bracketLeft} alt="bracket left" />
                 <div className="HeaderText">
-                    <h2 className={"HeaderTextCenter "+"HeaderTextMargin"}>My name is Tomasz and I’m an aspiring<br /><strong className='HeaderDev'>Frontend developer</strong> and cryptocurrency fan. </h2>
+                    <h2 className={"HeaderTextCenter "+"HeaderTextMargin"}>My name is Tomasz and I’m a<br /><strong className='HeaderDev'>Junior Fullstack developer</strong> and AI fan. </h2>
                     <p className={'HeaderParagraf ' + "HeaderTextCenter"}>You might be interested in checking the list of <a className='HeaderLinks' href="#skills">my skills</a>. Don’t forget to  have a glimpse at<br /><a href="#projects" className='HeaderLinks'>my projects</a>. Currently I’m looking for new challenges so if you have one - <a href="#contact" className='HeaderLinks'>contact me</a> 😊</p>
 
                 </div>
