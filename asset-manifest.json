@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2e574f3e.css",
+    "main.js": "/static/js/main.6b12af4a.js",
+    "static/js/787.5c39024c.chunk.js": "/static/js/787.5c39024c.chunk.js",
+    "static/media/tomaszjader.png": "/static/media/tomaszjader.a760bc7e264aefaf9835.png",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/instagram.svg": "/static/media/instagram.89a5de11a6609aa31b9afb75dd92f299.svg",
+    "static/media/bracket-right.svg": "/static/media/bracket-right.daedbe5acaa275767bad5068cd7df204.svg",
+    "static/media/bracket-left.svg": "/static/media/bracket-left.3445953c65bc7838d1a262effdabdc97.svg",
+    "static/media/github-blue.svg": "/static/media/github-blue.a6fd01a21b9d1c19a8573d6bbada0520.svg",
+    "static/media/github.svg": "/static/media/github.539c0d19928237d0c0ed1e128e77beee.svg",
+    "index.html": "/index.html",
+    "static/media/linkedin.svg": "/static/media/linkedin.8434b13d0938bfbe65905794f500216e.svg",
+    "static/media/facebook.svg": "/static/media/facebook.6b557a221af62580dfb711957a0365b8.svg",
+    "static/media/small-tick-green.svg": "/static/media/small-tick-green.caec4b8189125d0b00fb.svg",
+    "static/media/small-tick-white.svg": "/static/media/small-tick-white.b44e95934091bdff8a16.svg",
+    "static/media/speech-cloud.svg": "/static/media/speech-cloud.cbfb13beeacb6b714e2bd8901fbfe927.svg",
+    "static/media/list-dot.svg": "/static/media/list-dot.68a6fd053a406bdd49a0.svg",
+    "main.2e574f3e.css.map": "/static/css/main.2e574f3e.css.map",
+    "main.6b12af4a.js.map": "/static/js/main.6b12af4a.js.map",
+    "787.5c39024c.chunk.js.map": "/static/js/787.5c39024c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e574f3e.css",
+    "static/js/main.6b12af4a.js"
+  ]
+}
